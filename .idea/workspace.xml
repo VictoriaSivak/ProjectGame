@@ -1,0 +1,747 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="17cd760f-7d33-46a6-bb5e-1b2689a06f65" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Enigma.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Game/Enigma.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="14" column="33" lean-forward="false" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+              <folding>
+                <element signature="e#380#381#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Manager.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Game/Manager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3663">
+              <caret line="219" column="22" lean-forward="true" selection-start-line="219" selection-start-column="22" selection-end-line="219" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Player.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Game/Player.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="19" lean-forward="false" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+              <folding>
+                <element signature="e#131#132#0" expanded="true" />
+                <element signature="e#212#213#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="App.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Game/App.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>package Game\;\n\npublic class Enigma \{\n\n    private String enigma\;\n    private String answer\;\n\n    public String getEnigma\(\) \{\n        return enigma\;\n    \}\n    public void setEnigma\(String enigma\) \{\n        this\.enigma \= enigma\;\n    \}\n    public String getAnswer\(\) \{\n        return answer\;\n    \}\n    public void setAnswer\(String answer\) \{\n        this\.answer \= answer\;\n    \}\n    public Enigma\(String enigma\, String answer\) \{\n        super\(\)\;\n        this\.enigma \= enigma\;\n        this\.answer \= answer\;\n    \}\n\n\}\n</find>
+      <find>package Game\;\n\npublic class Manager \{\n    public static Enigma\[\] prepareData\(\)\{\n        \n        Enigma\[\] enigmas \= new Enigma\[50\]\;\n        \n        String\[\] answers0 \= \{\&quot;112\&quot;\, \&quot;92\&quot;\, \&quot;38\&quot;\, \&quot;61\&quot;\}\;\n        enigmas\[0\] \= new Enigma\(\&quot;Скільки країн брали участь у Другій світовій війні\?\&quot;\,answers0\,3\)\;\n        \n        String\[\] answers1 \= \{\&quot;Швидко\&quot;\, \&quot;Стоп\&quot;\, \&quot;Повільно\&quot;\, \&quot;Тихо\&quot;\}\;\n        enigmas\[1\] \= new Enigma\(\&quot;Музичний термін \“Аллегро\” означає\:\&quot;\, answers1\, 0\)\;\n        \n        String\[\] answers2 \= \{\&quot;Сонце\&quot;\, \&quot;Юпітер\&quot;\, \&quot;Земля\&quot;\, \&quot;Сатурн\&quot;\}\;\n        enigmas\[2\] \= new Enigma\(\&quot;Яка планета сонячної системи найбільша\?\&quot;\, answers2\, 1\)\;\n        \n        String\[\] answers3 \= \{\&quot;Монако\&quot;\, \&quot;Нігерія\&quot;\, \&quot;Ватикан\&quot;\, \&quot;Болгарія\&quot;\}\;\n        enigmas\[3\] \= new Enigma\(\&quot;Найменша країна \.\.\.\&quot;\, answers3\, 2\)\;\n        \n        String\[\] answers4 \= \{\&quot;Еверес\&quot;\, \&quot;Кіліманжаро\&quot;\, \&quot;Говерла\&quot;\, \&quot;Олімп\&quot;\}\;\n        enigmas\[4\] \= new Enigma\(\&quot;Яка гора слугувала місцем проживання еллінських богів\?\&quot;\, answers4\, 3\)\;\n\n        String\[\] answers5 \= \{\&quot;Тихий\&quot;\, \&quot;Атлантичний\&quot;\, \&quot;Індійський\&quot;\, \&quot;Північний льодовитий\&quot;\}\;\n        enigmas\[5\] \= new Enigma\(\&quot;В якому океані знаходиться жовте море\?\&quot;\, answers5\, 0\)\;\n\n        String\[\] answers6 \= \{\&quot;Москва\&quot;\, \&quot;Київ\&quot;\, \&quot;Софія\&quot;\, \&quot;Тольяті\&quot;\}\;\n        enigmas\[6\] \= new Enigma\(\&quot;У якому місті випускають автомобілі марки \'Жигулі\'\?\&quot;\, answers6\, 3\)\;\n\n        String\[\] answers7 \= \{\&quot;Ра\&quot;\, \&quot;Зевс\&quot;\, \&quot;Сонце\&quot;\, \&quot;Дажбог\&quot;\}\;\n        enigmas\[7\] \= new Enigma\(\&quot;Головний бог інків \.\.\.\&quot;\, answers7\, 2\)\;\n\n        String\[\] answers8 \= \{\&quot;Хрестоносці\&quot;\, \&quot;Інквізиція\&quot;\, \&quot;Мусульмани\&quot;\, \&quot;Свідки Єгови\&quot;\}\;\n        enigmas\[8\] \= new Enigma\(\&quot;Хто винищував єретиків в Іспанії в 15 ст\.\?\&quot;\, answers8\, 1\)\;\n\n        String\[\] answers9 \= \{\&quot;Читання\&quot;\, \&quot;Слухати\&quot;\, \&quot;Навчатися\&quot;\, \&quot;Засвоювати\&quot;\}\;\n        enigmas\[9\] \= new Enigma\(\&quot;Як з латині перекладається слово \'Лекція\'\?\&quot;\, answers9\, 0\)\;\n\n        String\[\] answers10 \= \{\&quot;Воїн\&quot;\, \&quot;Вбивця\&quot;\, \&quot;Захисник\&quot;\, \&quot;Вершник\&quot;\}\;\n        enigmas\[10\] \= new Enigma\(\&quot;Як перекладається слово \'Лицар\'\?\&quot;\, answers10\, 3\)\;\n\n        String\[\] answers11 \= \{\&quot;Половці\&quot;\, \&quot;Трипільці\&quot;\, \&quot;Скіфи\&quot;\, \&quot;Монголи\&quot;\}\;\n        enigmas\[11\] \= new Enigma\(\&quot;Народ\, який жив на березі Чорного моря в 6 ст\. до н\.е\. \.\.\.\&quot;\, answers11\, 2\)\;\n\n        String\[\] answers12 \= \{\&quot;Кенгуру\&quot;\, \&quot;Коала\&quot;\, \&quot;Бобер\&quot;\, \&quot;Сурок\&quot;\}\;\n        enigmas\[12\] \= new Enigma\(\&quot;Сумчастий ведмедик \- символ Австралії \.\.\.\&quot;\, answers12\, 1\)\;\n\n        String\[\] answers13 \= \{\&quot;Кажани\&quot;\, \&quot;Коти\&quot;\, \&quot;Кроти\&quot;\, \&quot;Зайці\&quot;\}\;\n        enigmas\[13\] \= new Enigma\(\&quot;Тварини\, які бачать не очима\, а вухами \.\.\.\&quot;\, answers13\, 0\)\;\n\n        String\[\] answers14 \= \{\&quot;0\&quot;\, \&quot;2\&quot;\, \&quot;4\&quot;\, \&quot;6\&quot;\}\;\n        enigmas\[14\] \= new Enigma\(\&quot;Скільки братів у Хлопчика\-мізинчика\?\&quot;\, answers14\,3\)\;\n\n        String\[\] answers15 \= \{\&quot;1000\&quot;\, \&quot;50\&quot;\, \&quot;20\&quot;\, \&quot;300\&quot;\}\;\n        enigmas\[15\] \= new Enigma\(\&quot;Скільки років спала Спляча красуня\?\&quot;\, answers15\,3\)\;\n\n        String\[\] answers16 \= \{\&quot;Жуль Верн\&quot;\, \&quot;Джонатан Свіфт\&quot;\, \&quot;Джек Лондон\&quot;\, \&quot;Скот Фітсджеральд\&quot;\}\;\n        enigmas\[16\] \= new Enigma\(\&quot;Хто придумав слово \'Ліліпут\'\?\&quot;\, answers16\, 1\)\;\n\n        String\[\] answers17 \= \{\&quot;Кок\&quot;\, \&quot;Капітан корабля\&quot;\, \&quot;Корабельний лікар\&quot;\, \&quot;Письменник\&quot;\}\;\n        enigmas\[17\] \= new Enigma\(\&quot;Професія Гулівера \.\.\.\&quot;\, answers17\, 2\)\;\n\n        String\[\] answers18 \= \{\&quot;9\&quot;\, \&quot;10\&quot;\, \&quot;5\&quot;\, \&quot;6\&quot;\}\;\n        enigmas\[18\] \= new Enigma\(\&quot;Скільки існує арабських цифр\?\&quot;\, answers18\, 1\)\;\n\n        String\[\] answers19 \= \{\&quot;Сарвантес\&quot;\, \&quot;Едісон\&quot;\, \&quot;Майєр\&quot;\, \&quot;Стівенсон\&quot;\}\;\n        enigmas\[19\] \= new Enigma\(\&quot;Автор роману \'Дон Кіхот\' \.\.\.\&quot;\, answers19\, 0\)\;\n\n        String\[\] answers20 \= \{\&quot;Блискавка\&quot;\, \&quot;Хуан\&quot;\, \&quot;Росінант\&quot;\, \&quot;Яблучко\&quot;\}\;\n        enigmas\[20\] \= new Enigma\(\&quot;Кличка коня Дон Кіхота \.\.\.\&quot;\, answers20\, 2\)\;\n\n        String\[\] answers21 \= \{\&quot;10\&quot;\, \&quot;20\&quot;\, \&quot;40\&quot;\, \&quot;45\&quot;\}\;\n        enigmas\[21\] \= new Enigma\(\&quot;Скільки років провів на беллюдному острові Робінзон Крузо\?\&quot;\, answers21\, 1\)\;\n\n        String\[\] answers22 \= \{\&quot;Шрам\&quot;\, \&quot;Муфаса\&quot;\, \&quot;Кіготь\&quot;\, \&quot;Шер\-Хан\&quot;\}\;\n        enigmas\[22\] \= new Enigma\(\&quot;Як звали тигра із книги Кіплінга про Мауглі\?\&quot;\, answers22\, 3\)\;\n\n        String\[\] answers23 \= \{\&quot;Короткий\&quot;\, \&quot;Тепло\&quot;\, \&quot;Утеплятися\&quot;\, \&quot;Довгий\&quot;\}\;\n        enigmas\[23\] \= new Enigma\(\&quot;У перекладі з латині слово \'Куртка\' означає \.\.\.\&quot;\, answers23\, 0\)\;\n\n        String\[\] answers24 \= \{\&quot;2\&quot;\, \&quot;3\&quot;\, \&quot;4\&quot;\, \&quot;5\&quot;\}\;\n        enigmas\[24\] \= new Enigma\(\&quot;Скільки груп інструментів включає симфонічний оркестр\?\&quot;\, answers24\, 1\)\;\n\n        String\[\] answers25 \= \{\&quot;Австрія\&quot;\, \&quot;Нідерланди\&quot;\, \&quot;Германія\&quot;\, \&quot;Бельгія\&quot;\}\;\n        enigmas\[25\] \= new Enigma\(\&quot;Де народився Йоган Себастьян Бах\?\&quot;\, answers25\, 2\)\;\n\n        String\[\] answers26 \= \{\&quot;4\&quot;\, \&quot;5\&quot;\, \&quot;6\&quot;\, \&quot;7\&quot;\}\;\n        enigmas\[26\] \= new Enigma\(\&quot;Скільки ліній у нотному стані\?\&quot;\, answers26\, 1\)\;\n\n        String\[\] answers27 \= \{\&quot;Діез\&quot;\, \&quot;Бекар\&quot;\, \&quot;Сінкопа\&quot;\, \&quot;Бемоль\&quot;\}\;\n        enigmas\[27\] \= new Enigma\(\&quot;Знак пониження звуку \.\.\.\&quot;\, answers27\, 3\)\;\n\n        String\[\] answers28 \= \{\&quot;Платон\&quot;\, \&quot;Архімед\&quot;\, \&quot;Сократ\&quot;\, \&quot;Цицерон\&quot;\}\;\n        enigmas\[28\] \= new Enigma\(\&quot;Видатний давньогрецький учений із Сиракуз \.\.\.\&quot;\, answers28\, 1\)\;\n\n        String\[\] answers29 \= \{\&quot;Діоген\&quot;\, \&quot;Конфуцій\&quot;\, \&quot;Ксенофонт\&quot;\, \&quot;Арістотель\&quot;\}\;\n        enigmas\[29\] \= new Enigma\(\&quot;Філософ\, який жив у бочці \.\.\.\&quot;\, answers29\, 0\)\;\n\n        String\[\] answers30 \= \{\&quot;Ейнштейн\&quot;\, \&quot;Едісон\&quot;\, \&quot;Дарвін\&quot;\, \&quot;Коперник\&quot;\}\;\n        enigmas\[30\] \= new Enigma\(\&quot;Учений\, який довів походження людини від мавпи \.\.\.\&quot;\, answers30\, 2\)\;\n\n        String\[\] answers31 \= \{\&quot;Угорщина\&quot;\, \&quot;Росія\&quot;\, \&quot;Україна\&quot;\, \&quot;Польща\&quot;\}\;\n        enigmas\[31\] \= new Enigma\(\&quot;У якій країні народився Миколай Коперник\?\&quot;\, answers31\, 3\)\;\n\n        String\[\] answers32 \= \{\&quot;Ватт\&quot;\, \&quot;Морзе\&quot;\, \&quot;Вітсон\&quot;\, \&quot;Кастальді\&quot;\}\;\n        enigmas\[32\] \= new Enigma\(\&quot;Винахідник азбуки\, за допомогою якої працює телеграф \.\.\.\&quot;\, answers32\, 1\)\;\n\n        String\[\] answers33 \= \{\&quot;Геометрія\&quot;\, \&quot;Алгебра\&quot;\, \&quot;Фізика\&quot;\, \&quot;Хімія\&quot;\}\;\n        enigmas\[33\] \= new Enigma\(\&quot;Ньютон основоположник науки \.\.\.\&quot;\, answers33\, 2\)\;\n\n        String\[\] answers34 \= \{\&quot;Чайник\&quot;\, \&quot;Мікрохвильва піч\&quot;\, \&quot;Посудомийка\&quot;\, \&quot;Кухонний комбайн\&quot;\}\;\n        enigmas\[34\] \= new Enigma\(\&quot;Винахід американського інженера П\. Спансера\, який широко застосовується на кухні \.\.\.\&quot;\, answers34\, 1\)\;\n\n        String\[\] answers35 \= \{\&quot;Літографія\&quot;\, \&quot;Пейнтографія\&quot;\, \&quot;Карбування\&quot;\, \&quot;Гравюра\&quot;\}\;\n        enigmas\[35\] \= new Enigma\(\&quot;Гравюра на камінні \.\.\.\&quot;\, answers35\, 0\)\;\n\n        String\[\] answers36 \= \{\&quot;Квітка\&quot;\, \&quot;Пензель\&quot;\, \&quot;Тичинка\&quot;\, \&quot;Пелюстка\&quot;\}\;\n        enigmas\[36\] \= new Enigma\(\&quot;Як називається суцвіття конвалії\?\&quot;\, answers36\, 1\)\;\n\n        String\[\] answers37 \= \{\&quot;Одноклітинні\&quot;\, \&quot;Багатоклітинні\&quot;\, \&quot;Гриби\&quot;\, \&quot;Бактерії\&quot;\}\;\n        enigmas\[37\] \= new Enigma\(\&quot;До якого царства відносяться дріжджі\?\&quot;\, answers37\, 2\)\;\n\n        String\[\] answers38 \= \{\&quot;Ідія\&quot;\, \&quot;Японія\&quot;\, \&quot;Єгипет\&quot;\, \&quot;Китай\&quot;\}\;\n        enigmas\[38\] \= new Enigma\(\&quot;Батьківщина сої \.\.\.\&quot;\, answers38\, 3\)\;\n\n        String\[\] answers39 \= \{\&quot;Індія\&quot;\, \&quot;Японія\&quot;\, \&quot;Єгипет\&quot;\, \&quot;Китай\&quot;\}\;\n        enigmas\[39\] \= new Enigma\(\&quot;Батьківщина риса \.\.\.\&quot;\, answers39\, 0\)\;\n\n        String\[\] answers40 \= \{\&quot;Так\&quot;\, \&quot;Ні\&quot;\, \&quot;Тільки глибоководні\&quot;\, \&quot;Тільки риби\-ссавці\&quot;\}\;\n        enigmas\[40\] \= new Enigma\(\&quot;Чи кашляють риби\?\&quot;\, answers40\, 0\)\;\n\n        String\[\] answers41 \= \{\&quot;Бук\&quot;\, \&quot;Сосна\&quot;\, \&quot;Секвоя\&quot;\, \&quot;Дуб\&quot;\}\;\n        enigmas\[41\] \= new Enigma\(\&quot;Деревина якого дерева використовується в суднобудівництві\?\&quot;\,answers41\, 1\)\;\n\n        String\[\] answers42 \= \{\&quot;Лазня\&quot;\, \&quot;Сад\&quot;\, \&quot;Бібліотека\&quot;\, \&quot;Берег Нілу\&quot;\}\;\n        enigmas\[42\] \= new Enigma\(\&quot;Єгипетський фараон Рамзес 13\-й користувався завжди аптекою для душі\. Що було для нього цією аптекою\?\&quot;\, \n                answers42\, 2\)\;\n\n        String\[\] answers43 \= \{\&quot;Канада\&quot;\, \&quot;Фіндяндія\&quot;\, \&quot;Ісландія\&quot;\, \&quot;Гренландія\&quot;\}\;\n        enigmas\[43\] \= new Enigma\(\&quot;Цю країну називають \“Землею тисячі озер і опівнічного сонця\”\.\.\.\&quot;\, answers43\, 1\)\;\n\n        String\[\] answers44 \= \{\&quot;Павук\&quot;\, \&quot;Муха\&quot;\, \&quot;Сороконіжка\&quot;\, \&quot;Бджола\&quot;\}\;\n        enigmas\[44\] \= new Enigma\(\&quot;Комаха\, яка має 5 очей \.\.\.\&quot;\, answers44\, 3\)\;\n\n        String\[\] answers45 \= \{\&quot;Ямайка\&quot;\, \&quot;Гаваї\&quot;\, \&quot;Куба\&quot;\, \&quot;Мадагаскар\&quot;\}\;\n        enigmas\[45\] \= new Enigma\(\&quot;Острів свободи\&quot;\, answers45\, 2\)\;\n\n        String\[\] answers46 \= \{\&quot;Англія\&quot;\, \&quot;Венеція\&quot;\, \&quot;Канада\&quot;\, \&quot;Росія\&quot;\}\;\n        enigmas\[46\] \= new Enigma\(\&quot;Столиця якої держави перекладається як \«Фортеця на болоті\»\?\&quot;\, answers46\, 0\)\;\n\n        String\[\] answers47 \= \{\&quot;Арес\&quot;\, \&quot;Прометей\&quot;\, \&quot;Аїд\&quot;\, \&quot;Зевс\&quot;\}\;\n        enigmas\[47\] \= new Enigma\(\&quot;Легендирний титан\, який приніс людям вогонь \.\.\.\&quot;\, answers47\, 1\)\;\n\n        String\[\] answers48 \= \{\&quot;Археолог\&quot;\, \&quot;Історик\&quot;\, \&quot;Антиквар\&quot;\, \&quot;Геолог\&quot;\}\;\n        enigmas\[48\] \= new Enigma\(\&quot;Любитель\, знавець стародавностей\, торговець стародавніми предметами\, збирач\.\&quot;\, answers48\, 2\)\;\n\n        String\[\] answers49 \= \{\&quot;Червоне\&quot;\, \&quot;Мертве\&quot;\, \&quot;Карибське\&quot;\, \&quot;Саргасове\&quot;\}\;\n        enigmas\[49\] \= new Enigma\(\&quot;Море без берегів \.\.\.\&quot;\, answers49\, 3\)\;\n        \n        return enigmas\;\n    \}\n    \/\*\*\n     \* Returns Enigma instance from the array\.\n     \* \@param array array of Enigma objects\n     \* \@return Enigma instance\n     \*\/\n    public Enigma getRandomEnigma\(Enigma\[\] array\) \{\n\n        int enigmaIndex \= \(int\) \(Math\.random\(\) \* 50\) \- 1\;\n        Enigma enigma \= array\[enigmaIndex\]\;\n        return enigma\;\n    \}\n\}\n</find>
+      <find>package Game\;\n\nimport java\.io\.IOException\;\nimport java\.util\.List\;\n\npublic class App\{\n\n    private static Player gamePlayer\;\n\n    public static void main\(String\[\] args\) \{\n\n        Manager manager \= new Manager\(\)\;\n        Enigma\[\] allEnigmas \= manager\.prepareData\(\)\;\n        for \(int i\=0\;i\&lt;10\;i\+\+\)\{\n            Enigma randomEnigma \= manager\.getRandomEnigma\(allEnigmas\)\;\n            System\.out\.println\(randomEnigma\.getQuestion\(\)\)\;\n        \}\n        \n        Player player \= new Player\(\)\;\n        try \{\n            gamePlayer \= manager\.setPlayer\(player\)\;\n        \} catch \(IOException e\) \{\n            System\.out\.printf\(\&quot;IO Exception occured\&quot;\)\;\n        \}\n        System\.out\.println\(player\)\;\n        setGamePlayer\(gamePlayer\)\;\n        LOG\.info\(\&quot;Game Player was created\. From LOGGER\!\&quot;\)\;\n        LOG\.debug\(\&quot;We are debaging\&quot; \)\;\n\n        \n\n    \}\n\n    public static Player getGamePlayer\(\) \{\n        return gamePlayer\;\n    \}\n\n    public static void setGamePlayer\(Player gamePlayer\) \{\n        App\.gamePlayer \= gamePlayer\;\n    \}\n    \n       \n\n\n    \}</find>
+    </findStrings>
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/Game/Main.java" />
+        <option value="$PROJECT_DIR$/src/Game/Enigma.java" />
+        <option value="$PROJECT_DIR$/src/Game/Player.java" />
+        <option value="$PROJECT_DIR$/src/Game/Manager.java" />
+        <option value="$PROJECT_DIR$/src/Game/App.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="10" />
+    <option name="y" value="20" />
+    <option name="width" value="1346" />
+    <option name="height" value="688" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="AndroidView" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ProjectGame" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProjectGame" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProjectGame" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProjectGame" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProjectGame" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProjectGame" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Game" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.App">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="Game.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="Game.App" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="ProjectGame" />
+      <envs />
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="Game.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="Game.Main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="ProjectGame" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Application.App" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Main" />
+    </list>
+    <recent_temporary>
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Application.App" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="17cd760f-7d33-46a6-bb5e-1b2689a06f65" name="Default" comment="" />
+      <created>1512457320934</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1512457320934</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18700476" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.074484944" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13103953" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Game/Enigma.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="33" lean-forward="false" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+          <folding>
+            <element signature="e#380#381#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Game/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="9" column="19" lean-forward="false" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+          <folding>
+            <element signature="e#131#132#0" expanded="true" />
+            <element signature="e#212#213#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Game/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Game/Manager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3723">
+          <caret line="219" column="22" lean-forward="true" selection-start-line="219" selection-start-column="22" selection-end-line="219" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Game/Enigma.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="33" lean-forward="false" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+          <folding>
+            <element signature="e#380#381#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Game/Manager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="35" lean-forward="true" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Game/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="9" column="19" lean-forward="false" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+          <folding>
+            <element signature="e#131#132#0" expanded="true" />
+            <element signature="e#212#213#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Game/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="42" column="5" lean-forward="false" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Game/Enigma.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="33" lean-forward="false" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+          <folding>
+            <element signature="e#380#381#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Game/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding>
+            <element signature="e#131#132#0" expanded="true" />
+            <element signature="e#212#213#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Game/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="31" lean-forward="false" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Game/Main.java" />
+    <entry file="file://$PROJECT_DIR$/src/Game/Manager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="833">
+          <caret line="49" column="22" lean-forward="false" selection-start-line="49" selection-start-column="22" selection-end-line="49" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Game/Enigma.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="33" lean-forward="false" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+          <folding>
+            <element signature="e#380#381#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Game/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="31" lean-forward="false" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Game/Main.java" />
+    <entry file="file://$PROJECT_DIR$/src/Game/Manager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Game/Enigma.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="33" lean-forward="false" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+          <folding>
+            <element signature="e#380#381#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Game/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="31" lean-forward="false" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Game/Main.java" />
+    <entry file="file://$PROJECT_DIR$/src/Game/Manager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="867">
+          <caret line="51" column="0" lean-forward="true" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Game/Enigma.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="26" column="5" lean-forward="false" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+          <folding>
+            <element signature="e#380#381#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Game/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/javax/swing/JLabel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15096">
+          <caret line="888" column="42" lean-forward="true" selection-start-line="888" selection-start-column="42" selection-end-line="888" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Game/Enigma.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="26" column="5" lean-forward="false" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+          <folding>
+            <element signature="e#380#381#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Game/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="19" column="41" lean-forward="false" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Game/Enigma.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="5" lean-forward="false" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+          <folding>
+            <element signature="e#380#381#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Game/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="31" lean-forward="false" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Game/Enigma.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#380#381#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Game/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="36" lean-forward="false" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Game/Enigma.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#380#381#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Game/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="36" lean-forward="true" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/lang/Runnable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/javax/swing/JLabel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="888" column="42" lean-forward="false" selection-start-line="888" selection-start-column="42" selection-end-line="888" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Game/Main.java" />
+    <entry file="file://$PROJECT_DIR$/src/Game/Manager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3663">
+          <caret line="219" column="22" lean-forward="true" selection-start-line="219" selection-start-column="22" selection-end-line="219" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Game/Enigma.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="14" column="33" lean-forward="false" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+          <folding>
+            <element signature="e#380#381#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Game/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="19" lean-forward="false" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+          <folding>
+            <element signature="e#131#132#0" expanded="true" />
+            <element signature="e#212#213#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Game/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>ProjectGame</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
